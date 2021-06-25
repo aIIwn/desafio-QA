@@ -55,7 +55,7 @@ public class DesafioQA {
           E digito 'Science: Computers' no campo de busca
           Quando clico no botão de buscar
           Então visualizo a listagem com 25 itens e o controle de paginação.
-        /
+        */
 
         driver.findElement(By.xpath("//[@id="page-top"]/section/div/div/div/a[1]")).click();                         //Click em Browser.
         Select options = new Select (driver.findElement(By.id("type")));
@@ -80,7 +80,7 @@ public class DesafioQA {
         E digito o usuario no campo de 'Username' e senha no campo de Password
         Quando clico no botão Entrar
         Então visualizo ???
-        /*
+        */
 
         driver.findElement(By.xpath("//[@id="navbar"]/ul/li[5]/a")).click();
         driver.findElement(By.xpath("//[@id="username"]")).sendKeys("testejunit2021");
